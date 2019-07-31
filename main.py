@@ -52,7 +52,7 @@ def test_url(url):
     return time_in_ms
 
 
-with open('results.csv', 'w') as csvfile:
+with open('test.csv', 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
     writer.writerow(['provider', 'hash', 'time (ms)'])
 
@@ -67,4 +67,4 @@ with open('results.csv', 'w') as csvfile:
                 writer.writerow([provider_entry['provider'], hash, result])
                 time.sleep(1)
 
-                print(f'Finished attempt {i} on hash: {hash}')
+                print(f"Finished attempt {i} through the {provider_entry['provider']} IPFS gateway for hash: {hash}")
