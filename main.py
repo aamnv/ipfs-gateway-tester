@@ -52,7 +52,7 @@ def test_url(url):
     return time_in_ms
 
 
-with open('test.csv', 'w') as csvfile:
+with open('results.csv', 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
     writer.writerow(['provider', 'hash', 'time (ms)'])
 
