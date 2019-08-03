@@ -33,11 +33,11 @@ python main.py
 ```
 This will start the test and spit out a CSV file (results.csv) that has three columns of data:
 
-- Provider (ex. Protocol Labs, Cloudflare, etc.
+- Provider (ex. Protocol Labs, Cloudflare, etc.)
 - Hash (hash of the file fetched)
 - Time (in milliseconds)
 
 You can use the hash map provided in the intro section above to make them human readable if needed.
 
-# results/
+# results/*
 The results directory is the output of the tests that I ran using this code. It contains results from different AWS t2.micro instances spread across geographies. Feel free to use this data if you'd like to skip running the code yourself.
