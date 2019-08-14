@@ -1,5 +1,5 @@
 # IPFS Gateway Tester
-IPFS gateway tester runs some bare bones Python code to test the performance of common IPFS gateways. It current tests the following gateway providers:
+IPFS gateway tester runs some bare bones Python code to test the performance of common IPFS gateways. It currently tests the following gateway providers:
 
 - Protocol Labs (https://ipfs.io/ipfs/)
 - Cloudflare (https://cloudflare-ipfs.com/ipfs/)
