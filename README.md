@@ -25,7 +25,7 @@ IPFS gateway tester requires:
 Assuming you have Python 3.6+ installed on your computer, you can do the following:
 
 ```
-git clone https://github.com/lyttlerock/ipfs-gateway-tester.git
+git clone https://github.com/aamnv/ipfs-gateway-tester.git
 cd ipfs-gateway-tester
 virtualenv venv
 pip install requests
